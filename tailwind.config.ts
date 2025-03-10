@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         primary: {
           "100": "#FFE8F0",
+          "200": "#EE2B69",
           DEFAULT: "#EE2B69",
         },
         secondary: "#FBE843",
@@ -45,7 +46,6 @@ const config: Config = {
       },
     },
   },
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 };
 
